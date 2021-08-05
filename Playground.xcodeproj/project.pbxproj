@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C028E482613527800E35CB9 /* NConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C028E472613527800E35CB9 /* NConsoleViewController.swift */; };
+		2C0F6C4B25FB9140008AD618 /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F6C4A25FB9140008AD618 /* PokemonDetailViewController.swift */; };
+		2C0F6C5025FB9268008AD618 /* pokemon-detail3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F6C4D25FB9267008AD618 /* pokemon-detail3.jpg */; };
+		2C0F6C5125FB9268008AD618 /* pokemon-detail2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F6C4E25FB9267008AD618 /* pokemon-detail2.jpg */; };
+		2C0F6C5225FB9268008AD618 /* pokemon-detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F6C4F25FB9268008AD618 /* pokemon-detail.jpg */; };
+		2C0F6C5525FB932D008AD618 /* pokeball-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F6C5425FB932D008AD618 /* pokeball-main.png */; };
+		2C0F6C5825FB93D5008AD618 /* pokemon-opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F6C5725FB93D4008AD618 /* pokemon-opening.mp3 */; };
+		2C0F6C5B25FB9AD7008AD618 /* nds-startup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2C0F6C5A25FB9AD7008AD618 /* nds-startup.mp3 */; };
+		2C1DC2C325EE6979004A1208 /* 24219-controller.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DC2C225EE6979004A1208 /* 24219-controller.json */; };
+		2C1E562725F1064B00241567 /* PlaystationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E562625F1064B00241567 /* PlaystationViewController.swift */; };
+		2C2E83D825F36FF3005D0E3A /* pokemon-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2E83D525F36FF3005D0E3A /* pokemon-main.png */; };
+		2C2E83D925F36FF3005D0E3A /* zelda-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2E83D625F36FF3005D0E3A /* zelda-main.png */; };
+		2C2E83DA25F36FF3005D0E3A /* mario-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2E83D725F36FF3005D0E3A /* mario-main.png */; };
+		2C2E83DD25F3A77F005D0E3A /* MarioDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E83DC25F3A77F005D0E3A /* MarioDetailViewController.swift */; };
+		2C48715225FF8B8200C95842 /* switch-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C48715125FF8B8200C95842 /* switch-main.png */; };
+		2C48715525FF90A600C95842 /* nes-main.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C48715425FF90A600C95842 /* nes-main.png */; };
+		2C48715825FF949000C95842 /* NintendoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48715725FF949000C95842 /* NintendoDetailViewController.swift */; };
+		2C4C9D672614A04F002039D8 /* ConsoleImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D662614A04F002039D8 /* ConsoleImageView.xib */; };
+		2C4C9D6A2614A06E002039D8 /* ConsoleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C9D692614A06E002039D8 /* ConsoleImageView.swift */; };
+		2C4C9D732614A8D5002039D8 /* nintendo-console5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D6C2614A8D5002039D8 /* nintendo-console5.jpg */; };
+		2C4C9D742614A8D5002039D8 /* nintendo-console7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D6D2614A8D5002039D8 /* nintendo-console7.jpg */; };
+		2C4C9D752614A8D5002039D8 /* nintendo-console4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D6E2614A8D5002039D8 /* nintendo-console4.jpg */; };
+		2C4C9D762614A8D5002039D8 /* nintendo-console1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D6F2614A8D5002039D8 /* nintendo-console1.jpg */; };
+		2C4C9D772614A8D5002039D8 /* nintendo-console6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D702614A8D5002039D8 /* nintendo-console6.jpg */; };
+		2C4C9D782614A8D5002039D8 /* nintendo-console2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D712614A8D5002039D8 /* nintendo-console2.jpg */; };
+		2C4C9D792614A8D5002039D8 /* nintendo-console3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D722614A8D5002039D8 /* nintendo-console3.jpg */; };
+		2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */; };
+		2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B68832602253A000A8E56 /* nintendo-logo.png */; };
+		2C98C1D725EE280700E974EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1D625EE280700E974EF /* AppDelegate.swift */; };
+		2C98C1D925EE280700E974EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1D825EE280700E974EF /* SceneDelegate.swift */; };
+		2C98C1DB25EE280700E974EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1DA25EE280700E974EF /* ViewController.swift */; };
+		2C98C1DE25EE280700E974EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C98C1DC25EE280700E974EF /* Main.storyboard */; };
+		2C98C1E025EE280800E974EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C98C1DF25EE280800E974EF /* Assets.xcassets */; };
+		2C98C1E325EE280800E974EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C98C1E125EE280800E974EF /* LaunchScreen.storyboard */; };
+		2CC6F99726AE5737004EC085 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC6F99626AE5737004EC085 /* TabbarController.swift */; };
+		2CD82C3B25FA3EAE00F66B3C /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD82C3A25FA3EAE00F66B3C /* Sound.swift */; };
+		2CD82C3E25FA400300F66B3C /* mario-opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD82C3D25FA400300F66B3C /* mario-opening.mp3 */; };
+		2CD82C4225FA421700F66B3C /* ZeldaDetailViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD82C4125FA421700F66B3C /* ZeldaDetailViewControllers.swift */; };
+		2CD82C4825FA438800F66B3C /* zelda-detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CD82C4525FA438800F66B3C /* zelda-detail.jpg */; };
+		2CD82C4925FA438800F66B3C /* zelda-detail2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD82C4625FA438800F66B3C /* zelda-detail2.png */; };
+		2CD82C4A25FA438800F66B3C /* zelda-detail3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CD82C4725FA438800F66B3C /* zelda-detail3.jpg */; };
+		2CD82C4D25FA439900F66B3C /* link-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD82C4C25FA439900F66B3C /* link-detail.png */; };
+		2CD82C5025FA45AE00F66B3C /* zelda-opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD82C4F25FA45AE00F66B3C /* zelda-opening.mp3 */; };
+		2CE8B06B26A8FCF000F1BA69 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8B06A26A8FCF000F1BA69 /* HTTPManager.swift */; };
+		2CF2669825F60F0600AEE815 /* mario-detail2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669525F60F0600AEE815 /* mario-detail2.jpg */; };
+		2CF2669925F60F0600AEE815 /* mario-detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669625F60F0600AEE815 /* mario-detail.jpg */; };
+		2CF2669A25F60F0600AEE815 /* mario-detail3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669725F60F0600AEE815 /* mario-detail3.png */; };
+		2CF266A025F651CF00AEE815 /* mario-mush.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669F25F651CF00AEE815 /* mario-mush.png */; };
+		E2AE5A293936B52762608314 /* Pods_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D736567B6E0963EEE2E450D /* Pods_Playground.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C028E472613527800E35CB9 /* NConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NConsoleViewController.swift; sourceTree = "<group>"; };
+		2C0F6C4A25FB9140008AD618 /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
+		2C0F6C4D25FB9267008AD618 /* pokemon-detail3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pokemon-detail3.jpg"; sourceTree = "<group>"; };
+		2C0F6C4E25FB9267008AD618 /* pokemon-detail2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pokemon-detail2.jpg"; sourceTree = "<group>"; };
+		2C0F6C4F25FB9268008AD618 /* pokemon-detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pokemon-detail.jpg"; sourceTree = "<group>"; };
+		2C0F6C5425FB932D008AD618 /* pokeball-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokeball-main.png"; sourceTree = "<group>"; };
+		2C0F6C5725FB93D4008AD618 /* pokemon-opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pokemon-opening.mp3"; sourceTree = "<group>"; };
+		2C0F6C5A25FB9AD7008AD618 /* nds-startup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nds-startup.mp3"; sourceTree = "<group>"; };
+		2C1DC2C225EE6979004A1208 /* 24219-controller.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "24219-controller.json"; sourceTree = "<group>"; };
+		2C1E562625F1064B00241567 /* PlaystationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaystationViewController.swift; sourceTree = "<group>"; };
+		2C2E83D525F36FF3005D0E3A /* pokemon-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokemon-main.png"; sourceTree = "<group>"; };
+		2C2E83D625F36FF3005D0E3A /* zelda-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zelda-main.png"; sourceTree = "<group>"; };
+		2C2E83D725F36FF3005D0E3A /* mario-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mario-main.png"; sourceTree = "<group>"; };
+		2C2E83DC25F3A77F005D0E3A /* MarioDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioDetailViewController.swift; sourceTree = "<group>"; };
+		2C48715125FF8B8200C95842 /* switch-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-main.png"; sourceTree = "<group>"; };
+		2C48715425FF90A600C95842 /* nes-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nes-main.png"; sourceTree = "<group>"; };
+		2C48715725FF949000C95842 /* NintendoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoDetailViewController.swift; sourceTree = "<group>"; };
+		2C4C9D662614A04F002039D8 /* ConsoleImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsoleImageView.xib; sourceTree = "<group>"; };
+		2C4C9D692614A06E002039D8 /* ConsoleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleImageView.swift; sourceTree = "<group>"; };
+		2C4C9D6C2614A8D5002039D8 /* nintendo-console5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console5.jpg"; sourceTree = "<group>"; };
+		2C4C9D6D2614A8D5002039D8 /* nintendo-console7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console7.jpg"; sourceTree = "<group>"; };
+		2C4C9D6E2614A8D5002039D8 /* nintendo-console4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console4.jpg"; sourceTree = "<group>"; };
+		2C4C9D6F2614A8D5002039D8 /* nintendo-console1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console1.jpg"; sourceTree = "<group>"; };
+		2C4C9D702614A8D5002039D8 /* nintendo-console6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console6.jpg"; sourceTree = "<group>"; };
+		2C4C9D712614A8D5002039D8 /* nintendo-console2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console2.jpg"; sourceTree = "<group>"; };
+		2C4C9D722614A8D5002039D8 /* nintendo-console3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console3.jpg"; sourceTree = "<group>"; };
+		2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewController.swift; sourceTree = "<group>"; };
+		2C7B68832602253A000A8E56 /* nintendo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nintendo-logo.png"; sourceTree = "<group>"; };
+		2C98C1D325EE280700E974EF /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C98C1D625EE280700E974EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C98C1D825EE280700E974EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C98C1DA25EE280700E974EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C98C1DD25EE280700E974EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C98C1DF25EE280800E974EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C98C1E225EE280800E974EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C98C1E425EE280800E974EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC6F99626AE5737004EC085 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		2CD82C3A25FA3EAE00F66B3C /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		2CD82C3D25FA400300F66B3C /* mario-opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mario-opening.mp3"; sourceTree = "<group>"; };
+		2CD82C4125FA421700F66B3C /* ZeldaDetailViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaDetailViewControllers.swift; sourceTree = "<group>"; };
+		2CD82C4525FA438800F66B3C /* zelda-detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zelda-detail.jpg"; sourceTree = "<group>"; };
+		2CD82C4625FA438800F66B3C /* zelda-detail2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zelda-detail2.png"; sourceTree = "<group>"; };
+		2CD82C4725FA438800F66B3C /* zelda-detail3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zelda-detail3.jpg"; sourceTree = "<group>"; };
+		2CD82C4C25FA439900F66B3C /* link-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "link-detail.png"; sourceTree = "<group>"; };
+		2CD82C4F25FA45AE00F66B3C /* zelda-opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "zelda-opening.mp3"; sourceTree = "<group>"; };
+		2CE8B06A26A8FCF000F1BA69 /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		2CF2669525F60F0600AEE815 /* mario-detail2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mario-detail2.jpg"; sourceTree = "<group>"; };
+		2CF2669625F60F0600AEE815 /* mario-detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mario-detail.jpg"; sourceTree = "<group>"; };
+		2CF2669725F60F0600AEE815 /* mario-detail3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mario-detail3.png"; sourceTree = "<group>"; };
+		2CF2669F25F651CF00AEE815 /* mario-mush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mario-mush.png"; sourceTree = "<group>"; };
+		2D736567B6E0963EEE2E450D /* Pods_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC9C50F77133AC1E7E218F8 /* Pods-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground.debug.xcconfig"; path = "Target Support Files/Pods-Playground/Pods-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		8785C96ECAC33FB50F5497D4 /* Pods-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground.release.xcconfig"; path = "Target Support Files/Pods-Playground/Pods-Playground.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C98C1D025EE280700E974EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AE5A293936B52762608314 /* Pods_Playground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1DC2B925EE689A004A1208 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CD82C3A25FA3EAE00F66B3C /* Sound.swift */,
+				2C4C9D662614A04F002039D8 /* ConsoleImageView.xib */,
+				2C4C9D692614A06E002039D8 /* ConsoleImageView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		2C1DC2C125EE6967004A1208 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C2E83D725F36FF3005D0E3A /* mario-main.png */,
+				2C2E83D525F36FF3005D0E3A /* pokemon-main.png */,
+				2C2E83D625F36FF3005D0E3A /* zelda-main.png */,
+				2CF2669625F60F0600AEE815 /* mario-detail.jpg */,
+				2CF2669525F60F0600AEE815 /* mario-detail2.jpg */,
+				2CF2669725F60F0600AEE815 /* mario-detail3.png */,
+				2CF2669F25F651CF00AEE815 /* mario-mush.png */,
+				2CD82C4525FA438800F66B3C /* zelda-detail.jpg */,
+				2CD82C4625FA438800F66B3C /* zelda-detail2.png */,
+				2CD82C4725FA438800F66B3C /* zelda-detail3.jpg */,
+				2CD82C4C25FA439900F66B3C /* link-detail.png */,
+				2C0F6C4F25FB9268008AD618 /* pokemon-detail.jpg */,
+				2C0F6C4E25FB9267008AD618 /* pokemon-detail2.jpg */,
+				2C0F6C4D25FB9267008AD618 /* pokemon-detail3.jpg */,
+				2C0F6C5425FB932D008AD618 /* pokeball-main.png */,
+				2C48715125FF8B8200C95842 /* switch-main.png */,
+				2C48715425FF90A600C95842 /* nes-main.png */,
+				2C7B68832602253A000A8E56 /* nintendo-logo.png */,
+				2C1DC2C225EE6979004A1208 /* 24219-controller.json */,
+				2C4C9D6F2614A8D5002039D8 /* nintendo-console1.jpg */,
+				2C4C9D712614A8D5002039D8 /* nintendo-console2.jpg */,
+				2C4C9D722614A8D5002039D8 /* nintendo-console3.jpg */,
+				2C4C9D6E2614A8D5002039D8 /* nintendo-console4.jpg */,
+				2C4C9D6C2614A8D5002039D8 /* nintendo-console5.jpg */,
+				2C4C9D702614A8D5002039D8 /* nintendo-console6.jpg */,
+				2C4C9D6D2614A8D5002039D8 /* nintendo-console7.jpg */,
+				2C0F6C5A25FB9AD7008AD618 /* nds-startup.mp3 */,
+				2CD82C3D25FA400300F66B3C /* mario-opening.mp3 */,
+				2CD82C4F25FA45AE00F66B3C /* zelda-opening.mp3 */,
+				2C0F6C5725FB93D4008AD618 /* pokemon-opening.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C619DC025EF6A63004B8C99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C98C1DA25EE280700E974EF /* ViewController.swift */,
+				2CC6F99626AE5737004EC085 /* TabbarController.swift */,
+				2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */,
+				2C1E562625F1064B00241567 /* PlaystationViewController.swift */,
+				2CD82C4025FA416E00F66B3C /* Detail ViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C98C1CA25EE280700E974EF = {
+			isa = PBXGroup;
+			children = (
+				2CE8B06926A8FB7F00F1BA69 /* Manager */,
+				2C98C1D525EE280700E974EF /* Playground */,
+				2C619DC025EF6A63004B8C99 /* ViewControllers */,
+				2C1DC2B925EE689A004A1208 /* Supporting Views */,
+				2C1DC2C125EE6967004A1208 /* Resources */,
+				2C98C1D425EE280700E974EF /* Products */,
+				5C484937E215ACBAB6D9E021 /* Pods */,
+				96553BDE9A134F8BFC41F2B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C98C1D425EE280700E974EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C98C1D325EE280700E974EF /* Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C98C1D525EE280700E974EF /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				2C98C1D625EE280700E974EF /* AppDelegate.swift */,
+				2C98C1D825EE280700E974EF /* SceneDelegate.swift */,
+				2C98C1DC25EE280700E974EF /* Main.storyboard */,
+				2C98C1DF25EE280800E974EF /* Assets.xcassets */,
+				2C98C1E125EE280800E974EF /* LaunchScreen.storyboard */,
+				2C98C1E425EE280800E974EF /* Info.plist */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		2CD82C4025FA416E00F66B3C /* Detail ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C2E83DC25F3A77F005D0E3A /* MarioDetailViewController.swift */,
+				2CD82C4125FA421700F66B3C /* ZeldaDetailViewControllers.swift */,
+				2C0F6C4A25FB9140008AD618 /* PokemonDetailViewController.swift */,
+				2C48715725FF949000C95842 /* NintendoDetailViewController.swift */,
+				2C028E472613527800E35CB9 /* NConsoleViewController.swift */,
+			);
+			path = "Detail ViewControllers";
+			sourceTree = "<group>";
+		};
+		2CE8B06926A8FB7F00F1BA69 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2CE8B06A26A8FCF000F1BA69 /* HTTPManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5C484937E215ACBAB6D9E021 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DC9C50F77133AC1E7E218F8 /* Pods-Playground.debug.xcconfig */,
+				8785C96ECAC33FB50F5497D4 /* Pods-Playground.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96553BDE9A134F8BFC41F2B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D736567B6E0963EEE2E450D /* Pods_Playground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C98C1D225EE280700E974EF /* Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C98C1E725EE280800E974EF /* Build configuration list for PBXNativeTarget "Playground" */;
+			buildPhases = (
+				E11B4B92700830E1EBA4CBE3 /* [CP] Check Pods Manifest.lock */,
+				2C98C1CF25EE280700E974EF /* Sources */,
+				2C98C1D025EE280700E974EF /* Frameworks */,
+				2C98C1D125EE280700E974EF /* Resources */,
+				7EE742E1148728E7C2535AAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Playground;
+			productName = Playground;
+			productReference = 2C98C1D325EE280700E974EF /* Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C98C1CB25EE280700E974EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2C98C1D225EE280700E974EF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2C98C1CE25EE280700E974EF /* Build configuration list for PBXProject "Playground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C98C1CA25EE280700E974EF;
+			productRefGroup = 2C98C1D425EE280700E974EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C98C1D225EE280700E974EF /* Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C98C1D125EE280700E974EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD82C4D25FA439900F66B3C /* link-detail.png in Resources */,
+				2C1DC2C325EE6979004A1208 /* 24219-controller.json in Resources */,
+				2C0F6C5225FB9268008AD618 /* pokemon-detail.jpg in Resources */,
+				2C98C1E325EE280800E974EF /* LaunchScreen.storyboard in Resources */,
+				2C4C9D762614A8D5002039D8 /* nintendo-console1.jpg in Resources */,
+				2C48715525FF90A600C95842 /* nes-main.png in Resources */,
+				2CF2669825F60F0600AEE815 /* mario-detail2.jpg in Resources */,
+				2C2E83DA25F36FF3005D0E3A /* mario-main.png in Resources */,
+				2C48715225FF8B8200C95842 /* switch-main.png in Resources */,
+				2CD82C4925FA438800F66B3C /* zelda-detail2.png in Resources */,
+				2CD82C3E25FA400300F66B3C /* mario-opening.mp3 in Resources */,
+				2C2E83D825F36FF3005D0E3A /* pokemon-main.png in Resources */,
+				2C4C9D792614A8D5002039D8 /* nintendo-console3.jpg in Resources */,
+				2C4C9D742614A8D5002039D8 /* nintendo-console7.jpg in Resources */,
+				2C0F6C5025FB9268008AD618 /* pokemon-detail3.jpg in Resources */,
+				2CD82C4A25FA438800F66B3C /* zelda-detail3.jpg in Resources */,
+				2C4C9D672614A04F002039D8 /* ConsoleImageView.xib in Resources */,
+				2C4C9D752614A8D5002039D8 /* nintendo-console4.jpg in Resources */,
+				2CF2669A25F60F0600AEE815 /* mario-detail3.png in Resources */,
+				2C0F6C5525FB932D008AD618 /* pokeball-main.png in Resources */,
+				2C0F6C5825FB93D5008AD618 /* pokemon-opening.mp3 in Resources */,
+				2C2E83D925F36FF3005D0E3A /* zelda-main.png in Resources */,
+				2C98C1E025EE280800E974EF /* Assets.xcassets in Resources */,
+				2CD82C4825FA438800F66B3C /* zelda-detail.jpg in Resources */,
+				2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */,
+				2CF266A025F651CF00AEE815 /* mario-mush.png in Resources */,
+				2C4C9D772614A8D5002039D8 /* nintendo-console6.jpg in Resources */,
+				2C98C1DE25EE280700E974EF /* Main.storyboard in Resources */,
+				2C0F6C5125FB9268008AD618 /* pokemon-detail2.jpg in Resources */,
+				2C4C9D732614A8D5002039D8 /* nintendo-console5.jpg in Resources */,
+				2CD82C5025FA45AE00F66B3C /* zelda-opening.mp3 in Resources */,
+				2C4C9D782614A8D5002039D8 /* nintendo-console2.jpg in Resources */,
+				2C0F6C5B25FB9AD7008AD618 /* nds-startup.mp3 in Resources */,
+				2CF2669925F60F0600AEE815 /* mario-detail.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EE742E1148728E7C2535AAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground/Pods-Playground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Playground/Pods-Playground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Playground/Pods-Playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11B4B92700830E1EBA4CBE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C98C1CF25EE280700E974EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD82C4225FA421700F66B3C /* ZeldaDetailViewControllers.swift in Sources */,
+				2CD82C3B25FA3EAE00F66B3C /* Sound.swift in Sources */,
+				2C4C9D6A2614A06E002039D8 /* ConsoleImageView.swift in Sources */,
+				2C2E83DD25F3A77F005D0E3A /* MarioDetailViewController.swift in Sources */,
+				2C1E562725F1064B00241567 /* PlaystationViewController.swift in Sources */,
+				2C028E482613527800E35CB9 /* NConsoleViewController.swift in Sources */,
+				2C48715825FF949000C95842 /* NintendoDetailViewController.swift in Sources */,
+				2C98C1DB25EE280700E974EF /* ViewController.swift in Sources */,
+				2C98C1D725EE280700E974EF /* AppDelegate.swift in Sources */,
+				2CE8B06B26A8FCF000F1BA69 /* HTTPManager.swift in Sources */,
+				2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */,
+				2C98C1D925EE280700E974EF /* SceneDelegate.swift in Sources */,
+				2C0F6C4B25FB9140008AD618 /* PokemonDetailViewController.swift in Sources */,
+				2CC6F99726AE5737004EC085 /* TabbarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C98C1DC25EE280700E974EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C98C1DD25EE280700E974EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C98C1E125EE280800E974EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C98C1E225EE280800E974EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C98C1E525EE280800E974EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C98C1E625EE280800E974EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C98C1E825EE280800E974EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC9C50F77133AC1E7E218F8 /* Pods-Playground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SS2Y8YJ8M;
+				INFOPLIST_FILE = Playground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiwoong.Playground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2C98C1E925EE280800E974EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8785C96ECAC33FB50F5497D4 /* Pods-Playground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SS2Y8YJ8M;
+				INFOPLIST_FILE = Playground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiwoong.Playground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C98C1CE25EE280700E974EF /* Build configuration list for PBXProject "Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C98C1E525EE280800E974EF /* Debug */,
+				2C98C1E625EE280800E974EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C98C1E725EE280800E974EF /* Build configuration list for PBXNativeTarget "Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C98C1E825EE280800E974EF /* Debug */,
+				2C98C1E925EE280800E974EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C98C1CB25EE280700E974EF /* Project object */;
+}
