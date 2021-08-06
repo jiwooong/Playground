@@ -9,20 +9,20 @@ import Foundation
 import CoreLocation
 
 public class NintendoModel {
-    public let Title: String
-    public let TitleImage: UIImage
-    public let TitleDescription: String
-    public let shoppingURL: URL
+    public let title: String
+    public let titleImage: UIImage
+    public let titleDescription: String
+    public let shoppingURL: String
     public let location: CLLocationCoordinate2D
     
-    public init(Title: String,
-                TitleImage: UIImage,
-                TitleDescription: String,
-                shoppingURL: URL,
+    public init(title: String,
+                titleImage: UIImage,
+                titleDescription: String,
+                shoppingURL: String,
                 location: CLLocationCoordinate2D) {
-        self.Title = Title
-        self.TitleImage = TitleImage
-        self.TitleDescription = TitleDescription
+        self.title = title
+        self.titleImage = titleImage
+        self.titleDescription = titleDescription
         self.shoppingURL = shoppingURL
         self.location = location
     }

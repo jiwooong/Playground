@@ -67,6 +67,7 @@
 		2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */; };
 		2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B68832602253A000A8E56 /* nintendo-logo.png */; };
 		2C93A13426BD050400E9CD1A /* NintendoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13326BD050400E9CD1A /* NintendoModel.swift */; };
+		2C93A13726BD084600E9CD1A /* NintendoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */; };
 		2C98C1D725EE280700E974EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1D625EE280700E974EF /* AppDelegate.swift */; };
 		2C98C1D925EE280700E974EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1D825EE280700E974EF /* SceneDelegate.swift */; };
 		2C98C1DB25EE280700E974EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1DA25EE280700E974EF /* ViewController.swift */; };
@@ -163,6 +164,7 @@
 		2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewController.swift; sourceTree = "<group>"; };
 		2C7B68832602253A000A8E56 /* nintendo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nintendo-logo.png"; sourceTree = "<group>"; };
 		2C93A13326BD050400E9CD1A /* NintendoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoModel.swift; sourceTree = "<group>"; };
+		2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewModel.swift; sourceTree = "<group>"; };
 		2C98C1D325EE280700E974EF /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C98C1D625EE280700E974EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C98C1D825EE280700E974EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -334,10 +336,19 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		2C93A13526BD081E00E9CD1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		2C98C1CA25EE280700E974EF = {
 			isa = PBXGroup;
 			children = (
 				2C93A13226BD04EC00E9CD1A /* Models */,
+				2C93A13526BD081E00E9CD1A /* ViewModels */,
 				2CE4558926BBB480007F4AF5 /* Header */,
 				2CE8B06926A8FB7F00F1BA69 /* Manager */,
 				2C98C1D525EE280700E974EF /* Playground */,
@@ -609,6 +620,7 @@
 				2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */,
 				2C98C1D925EE280700E974EF /* SceneDelegate.swift in Sources */,
 				2C0F6C4B25FB9140008AD618 /* PokemonDetailViewController.swift in Sources */,
+				2C93A13726BD084600E9CD1A /* NintendoViewModel.swift in Sources */,
 				2C93A13426BD050400E9CD1A /* NintendoModel.swift in Sources */,
 				2CC6F99726AE5737004EC085 /* TabbarController.swift in Sources */,
 			);
