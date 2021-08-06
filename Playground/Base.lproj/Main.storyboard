@@ -144,6 +144,12 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7MT-56-9CR">
+                                                <rect key="frame" x="16" y="656" width="382" height="25.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -159,12 +165,15 @@
                                             <constraint firstItem="Bcb-k1-mOr" firstAttribute="leading" secondItem="hdA-SF-Wwt" secondAttribute="leading" id="7yj-NU-ZGp"/>
                                             <constraint firstItem="YnM-RE-Ogs" firstAttribute="width" secondItem="B5f-de-hec" secondAttribute="width" id="9SS-yW-7i1"/>
                                             <constraint firstItem="hdA-SF-Wwt" firstAttribute="width" secondItem="hdA-SF-Wwt" secondAttribute="height" multiplier="1:1" id="9Ww-l1-sfH"/>
+                                            <constraint firstItem="7MT-56-9CR" firstAttribute="leading" secondItem="5yp-02-WfG" secondAttribute="leading" constant="16" id="B7z-iL-YLv"/>
+                                            <constraint firstItem="7MT-56-9CR" firstAttribute="top" secondItem="OkG-i6-InD" secondAttribute="bottom" constant="64" id="Btq-gN-lbT"/>
                                             <constraint firstItem="Bcb-k1-mOr" firstAttribute="bottom" secondItem="OkG-i6-InD" secondAttribute="bottom" id="GiB-pM-Vip"/>
                                             <constraint firstItem="lGP-Ov-xlI" firstAttribute="trailing" secondItem="Hlh-sS-OjH" secondAttribute="trailing" id="Irj-69-vvn"/>
                                             <constraint firstItem="hdA-SF-Wwt" firstAttribute="leading" secondItem="EF3-Eq-pN9" secondAttribute="leading" id="KEe-GJ-gbp"/>
                                             <constraint firstAttribute="trailing" secondItem="c9C-0Z-uwG" secondAttribute="trailing" constant="16" id="Myd-Db-KDc"/>
                                             <constraint firstItem="Hlh-sS-OjH" firstAttribute="trailing" secondItem="HyO-ew-CaY" secondAttribute="trailing" id="Nr2-F2-pfp"/>
                                             <constraint firstItem="c9C-0Z-uwG" firstAttribute="leading" secondItem="5yp-02-WfG" secondAttribute="leading" constant="16" id="QRe-fA-Y6S"/>
+                                            <constraint firstAttribute="trailing" secondItem="7MT-56-9CR" secondAttribute="trailing" constant="16" id="S2g-wJ-aBa"/>
                                             <constraint firstItem="Hlh-sS-OjH" firstAttribute="centerY" secondItem="hdA-SF-Wwt" secondAttribute="centerY" id="SeG-6h-PYn"/>
                                             <constraint firstItem="1ER-tg-Np7" firstAttribute="leading" secondItem="5yp-02-WfG" secondAttribute="leading" constant="16" id="WNY-7T-NKv"/>
                                             <constraint firstItem="qwf-aM-165" firstAttribute="top" secondItem="5yp-02-WfG" secondAttribute="top" id="XXl-kL-znE"/>
@@ -227,6 +236,7 @@
                         <outlet property="ivZelda" destination="B5f-de-hec" id="6PM-ry-1Rc"/>
                         <outlet property="lblBestTitle" destination="1ER-tg-Np7" id="U2s-Te-CNp"/>
                         <outlet property="lblGotyGames" destination="lGP-Ov-xlI" id="G5Y-3d-3Oe"/>
+                        <outlet property="lblHomePage" destination="7MT-56-9CR" id="IO7-oT-Ja7"/>
                         <outlet property="lblNintendo" destination="HyO-ew-CaY" id="x6b-7w-jW7"/>
                         <outlet property="lblNintendoConsoles" destination="Hlh-sS-OjH" id="B7Q-Md-2iq"/>
                         <outlet property="lblSwitch" destination="c9C-0Z-uwG" id="icU-5W-mNd"/>

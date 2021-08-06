@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 class NintendoViewController: UIViewController {
     
@@ -24,6 +25,9 @@ class NintendoViewController: UIViewController {
     @IBOutlet weak var ivNESOne: UIImageView!
     @IBOutlet weak var ivNESTwo: UIImageView!
     @IBOutlet weak var ivNESThree: UIImageView!
+    @IBOutlet weak var lblHomePage: UILabel!
+    
+    let nintendoLocation = CLLocationCoordinate2D(latitude: 37.502009, longitude: 127.037296)
     
     // MARK: - Life Cycle
     
@@ -31,6 +35,7 @@ class NintendoViewController: UIViewController {
         super.viewDidLoad()
         setVar()
         setImageView()
+        setNintendoModel()
     }
     
     //  MARK: - Set
@@ -42,6 +47,7 @@ class NintendoViewController: UIViewController {
         lblNintendo.text = "닌텐도란?"
         lblNintendoConsoles.text = "역대 게임기"
         lblGotyGames.text = "Goty 수상작"
+        lblHomePage.text = "Nintendo Official Site"
         
         ivMario.image = UIImage(named: "mario-main")
         ivZelda.image = UIImage(named: "zelda-main")
@@ -67,6 +73,14 @@ class NintendoViewController: UIViewController {
         ivNintendoSwitch.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(popUpSwitchDetail(sender:))))
         lblNintendo.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(goToNintendoDetail(sender:))))
         lblNintendoConsoles.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(goToNConsoleView(sender:))))
+    }
+    
+    private func setNintendoModel() {
+        let mario = NintendoModel(title: "Super Mario",
+                                  titleImage: UIImage(named: "mario-main") ?? UIImage(),
+                                  titleDescription: "",
+                                  homepageURL: "",
+                                  location: CLLocationCoordinate2D())
     }
     
     // MARK: - Functions

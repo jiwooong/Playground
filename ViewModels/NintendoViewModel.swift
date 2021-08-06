@@ -16,22 +16,22 @@ public class NintendoViewModel {
     }
     
     public var title: String {
-        return nintendo.title
+        return nintendo.title ?? ""
     }
     
     public var titleImage: UIImage {
-        return nintendo.titleImage
+        return nintendo.titleImage ?? UIImage()
     }
     
     public var titleDescription: String {
-        return nintendo.titleDescription
+        return nintendo.titleDescription ?? ""
     }
     
-    public var shoppingURL: URL {
-        return URL(string: nintendo.shoppingURL) ?? URL(string: "https://www.nintendo.co.kr")!
+    public var homepageURL: URL {
+        return URL(string: nintendo.homepageURL ?? "") ?? URL(string: "https://www.nintendo.co.kr")!
     }
     
     public var location: CLLocationCoordinate2D {
-        return nintendo.location
+        return nintendo.location ?? CLLocationCoordinate2D()
     }
 }
