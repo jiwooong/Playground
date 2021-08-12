@@ -359,48 +359,9 @@
                     <view key="view" contentMode="scaleToFill" id="aEw-kG-a09">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xP5-Io-LEh">
-                                <rect key="frame" x="0.0" y="373" width="414" height="150"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QLR-iv-Mfj">
-                                        <rect key="frame" x="10" y="0.0" width="394" height="150"/>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="90T-sZ-J4W"/>
-                                    <constraint firstItem="QLR-iv-Mfj" firstAttribute="height" secondItem="xP5-Io-LEh" secondAttribute="height" id="9FK-nj-v9n"/>
-                                    <constraint firstAttribute="trailing" secondItem="QLR-iv-Mfj" secondAttribute="trailing" constant="10" id="Xh2-cs-Brv"/>
-                                    <constraint firstItem="QLR-iv-Mfj" firstAttribute="leading" secondItem="xP5-Io-LEh" secondAttribute="leading" constant="10" id="ecA-JL-p6D"/>
-                                    <constraint firstItem="QLR-iv-Mfj" firstAttribute="centerX" secondItem="xP5-Io-LEh" secondAttribute="centerX" placeholder="YES" id="eqt-Hn-EPM"/>
-                                    <constraint firstItem="QLR-iv-Mfj" firstAttribute="top" secondItem="xP5-Io-LEh" secondAttribute="top" id="fDJ-du-1OV"/>
-                                    <constraint firstAttribute="bottom" secondItem="QLR-iv-Mfj" secondAttribute="bottom" id="z7q-Cr-ARs"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="wfD-sL-Cjb"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="wUe-JZ-Pvw"/>
-                            </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sh4-p5-0y5">
-                                <rect key="frame" x="16" y="315.5" width="382" height="25.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="viS-mJ-rD0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="sh4-p5-0y5" firstAttribute="leading" secondItem="viS-mJ-rD0" secondAttribute="leading" constant="16" id="O01-8L-x5o"/>
-                            <constraint firstItem="xP5-Io-LEh" firstAttribute="top" secondItem="sh4-p5-0y5" secondAttribute="bottom" constant="32" id="XVr-6f-YF2"/>
-                            <constraint firstItem="viS-mJ-rD0" firstAttribute="trailing" secondItem="xP5-Io-LEh" secondAttribute="trailing" id="e19-iJ-reT"/>
-                            <constraint firstItem="xP5-Io-LEh" firstAttribute="centerY" secondItem="aEw-kG-a09" secondAttribute="centerY" id="iMY-zd-Ftb"/>
-                            <constraint firstItem="viS-mJ-rD0" firstAttribute="trailing" secondItem="sh4-p5-0y5" secondAttribute="trailing" constant="16" id="wNw-yS-XyX"/>
-                            <constraint firstItem="xP5-Io-LEh" firstAttribute="leading" secondItem="viS-mJ-rD0" secondAttribute="leading" id="yLj-Sd-FsE"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="lblTitle" destination="sh4-p5-0y5" id="RlH-Ko-Q39"/>
-                        <outlet property="stackView" destination="QLR-iv-Mfj" id="J9L-XT-BAb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gEF-eG-0kO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

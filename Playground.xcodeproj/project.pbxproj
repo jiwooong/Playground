@@ -67,6 +67,7 @@
 		2C59785D26C4A686002CB021 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2226BBA651005356DB /* libc++.tbd */; };
 		2C59785E26C4A688002CB021 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2326BBA65A005356DB /* libxml2.tbd */; };
 		2C59785F26C4A68C002CB021 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2426BBA663005356DB /* libsqlite3.tbd */; };
+		2C59786126C50D21002CB021 /* ConsolesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59786026C50D21002CB021 /* ConsolesView.swift */; };
 		2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */; };
 		2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B68832602253A000A8E56 /* nintendo-logo.png */; };
 		2C93A13426BD050400E9CD1A /* NintendoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13326BD050400E9CD1A /* NintendoModel.swift */; };
@@ -175,6 +176,7 @@
 		2C4C9D702614A8D5002039D8 /* nintendo-console6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console6.jpg"; sourceTree = "<group>"; };
 		2C4C9D712614A8D5002039D8 /* nintendo-console2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console2.jpg"; sourceTree = "<group>"; };
 		2C4C9D722614A8D5002039D8 /* nintendo-console3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console3.jpg"; sourceTree = "<group>"; };
+		2C59786026C50D21002CB021 /* ConsolesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsolesView.swift; sourceTree = "<group>"; };
 		2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewController.swift; sourceTree = "<group>"; };
 		2C7B68832602253A000A8E56 /* nintendo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nintendo-logo.png"; sourceTree = "<group>"; };
 		2C93A13326BD050400E9CD1A /* NintendoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoModel.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				2CD82C3A25FA3EAE00F66B3C /* Sound.swift */,
 				2C4C9D662614A04F002039D8 /* ConsoleImageView.xib */,
 				2C4C9D692614A06E002039D8 /* ConsoleImageView.swift */,
+				2C59786026C50D21002CB021 /* ConsolesView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -676,6 +679,7 @@
 				2C48715825FF949000C95842 /* NintendoDetailViewController.swift in Sources */,
 				2C98C1DB25EE280700E974EF /* ViewController.swift in Sources */,
 				2C98C1D725EE280700E974EF /* AppDelegate.swift in Sources */,
+				2C59786126C50D21002CB021 /* ConsolesView.swift in Sources */,
 				2CE8B06B26A8FCF000F1BA69 /* HTTPManager.swift in Sources */,
 				2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */,
 				2C98C1D925EE280700E974EF /* SceneDelegate.swift in Sources */,
