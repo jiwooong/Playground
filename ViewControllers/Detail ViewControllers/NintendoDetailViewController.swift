@@ -17,15 +17,15 @@ class NintendoDetailViewController: UIViewController, MTMapViewDelegate {
     @IBOutlet weak var tvNintendoDetail: UITextView!
     @IBOutlet weak var lblSecondTitle: UILabel!
     @IBOutlet weak var mapView: MKMapView!
+    @IBOutlet var scrollView: UIScrollView!
     
     // MARK: - Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setVar()
-//        setMapView()
-        setMTMapView()
+        setMapView()
+//        setMTMapView()
     }
     
     // MARK: - Set
@@ -42,7 +42,7 @@ class NintendoDetailViewController: UIViewController, MTMapViewDelegate {
     private func setMapView() {
         let location = CLLocationCoordinate2D(latitude: 37.502009, longitude: 127.037296)
         let annotation = MKPointAnnotation()
-        
+
         mapView.layer.cornerRadius = 16.0
         mapView.setCenter(location, animated: true)
         annotation.coordinate = location
@@ -55,8 +55,12 @@ class NintendoDetailViewController: UIViewController, MTMapViewDelegate {
     
     private func setMTMapView() {
         let kakaoMapView = MTMapView(frame: CGRect(origin: self.mapView.frame.origin, size: self.mapView.frame.size))
+        self.scrollView.addSubview(kakaoMapView)
+        kakaoMapView.translatesAutoresizingMaskIntoConstraints = false
+        kakaoMapView.centerXAnchor.constraint(equalTo: lblSecondTitle.centerXAnchor).isActive = true
+        kakaoMapView.topAnchor.constraint(equalTo: lblSecondTitle.bottomAnchor, constant: 32).isActive = true
+        kakaoMapView.layer.cornerRadius = 16.0
         kakaoMapView.delegate = self
         kakaoMapView.baseMapType = .hybrid
-        self.mapView.addSubview(kakaoMapView)
     }
 }
