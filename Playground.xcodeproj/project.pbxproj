@@ -64,10 +64,25 @@
 		2C4C9D772614A8D5002039D8 /* nintendo-console6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D702614A8D5002039D8 /* nintendo-console6.jpg */; };
 		2C4C9D782614A8D5002039D8 /* nintendo-console2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D712614A8D5002039D8 /* nintendo-console2.jpg */; };
 		2C4C9D792614A8D5002039D8 /* nintendo-console3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C9D722614A8D5002039D8 /* nintendo-console3.jpg */; };
+		2C59785D26C4A686002CB021 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2226BBA651005356DB /* libc++.tbd */; };
+		2C59785E26C4A688002CB021 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2326BBA65A005356DB /* libxml2.tbd */; };
+		2C59785F26C4A68C002CB021 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2426BBA663005356DB /* libsqlite3.tbd */; };
 		2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */; };
 		2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B68832602253A000A8E56 /* nintendo-logo.png */; };
 		2C93A13426BD050400E9CD1A /* NintendoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13326BD050400E9CD1A /* NintendoModel.swift */; };
 		2C93A13726BD084600E9CD1A /* NintendoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */; };
+		2C962EDF26C0AA3300100F60 /* Pods-Playground.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2C962ED226C0AA3300100F60 /* Pods-Playground.debug.xcconfig */; };
+		2C962EE026C0AA3300100F60 /* Pods-Playground.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2C962ED326C0AA3300100F60 /* Pods-Playground.release.xcconfig */; };
+		2C962EE126C0AA3300100F60 /* Pods-Playground-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2C962ED526C0AA3300100F60 /* Pods-Playground-frameworks.sh */; };
+		2C962EE226C0AA3300100F60 /* Pods-Playground-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 2C962ED626C0AA3300100F60 /* Pods-Playground-frameworks-Release-input-files.xcfilelist */; };
+		2C962EE326C0AA3300100F60 /* Pods-Playground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C962ED726C0AA3300100F60 /* Pods-Playground-dummy.m */; };
+		2C962EE426C0AA3300100F60 /* Pods-Playground-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 2C962ED926C0AA3300100F60 /* Pods-Playground-acknowledgements.markdown */; };
+		2C962EE526C0AA3300100F60 /* Pods-Playground-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 2C962EDA26C0AA3300100F60 /* Pods-Playground-frameworks-Release-output-files.xcfilelist */; };
+		2C962EE626C0AA3300100F60 /* Pods-Playground-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C962EDB26C0AA3300100F60 /* Pods-Playground-acknowledgements.plist */; };
+		2C962EE726C0AA3300100F60 /* Pods-Playground-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C962EDC26C0AA3300100F60 /* Pods-Playground-Info.plist */; };
+		2C962EE826C0AA3300100F60 /* Pods-Playground-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 2C962EDD26C0AA3300100F60 /* Pods-Playground-frameworks-Debug-output-files.xcfilelist */; };
+		2C962EE926C0AA3300100F60 /* Pods-Playground-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = 2C962EDE26C0AA3300100F60 /* Pods-Playground-frameworks-Debug-input-files.xcfilelist */; };
+		2C962EEA26C0ADEE00100F60 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A19D626BBA59F005356DB /* DaumMap.framework */; };
 		2C98C1D725EE280700E974EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1D625EE280700E974EF /* AppDelegate.swift */; };
 		2C98C1D925EE280700E974EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1D825EE280700E974EF /* SceneDelegate.swift */; };
 		2C98C1DB25EE280700E974EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98C1DA25EE280700E974EF /* ViewController.swift */; };
@@ -88,7 +103,6 @@
 		2CF2669925F60F0600AEE815 /* mario-detail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669625F60F0600AEE815 /* mario-detail.jpg */; };
 		2CF2669A25F60F0600AEE815 /* mario-detail3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669725F60F0600AEE815 /* mario-detail3.png */; };
 		2CF266A025F651CF00AEE815 /* mario-mush.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2669F25F651CF00AEE815 /* mario-mush.png */; };
-		E2AE5A293936B52762608314 /* Pods_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D736567B6E0963EEE2E450D /* Pods_Playground.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +179,19 @@
 		2C7B68832602253A000A8E56 /* nintendo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nintendo-logo.png"; sourceTree = "<group>"; };
 		2C93A13326BD050400E9CD1A /* NintendoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoModel.swift; sourceTree = "<group>"; };
 		2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewModel.swift; sourceTree = "<group>"; };
+		2C962ED226C0AA3300100F60 /* Pods-Playground.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		2C962ED326C0AA3300100F60 /* Pods-Playground.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Playground.release.xcconfig"; sourceTree = "<group>"; };
+		2C962ED426C0AA3300100F60 /* Pods-Playground.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Playground.modulemap"; sourceTree = "<group>"; };
+		2C962ED526C0AA3300100F60 /* Pods-Playground-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-Playground-frameworks.sh"; sourceTree = "<group>"; };
+		2C962ED626C0AA3300100F60 /* Pods-Playground-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Playground-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		2C962ED726C0AA3300100F60 /* Pods-Playground-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-Playground-dummy.m"; sourceTree = "<group>"; };
+		2C962ED826C0AA3300100F60 /* Pods-Playground-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-Playground-umbrella.h"; sourceTree = "<group>"; };
+		2C962ED926C0AA3300100F60 /* Pods-Playground-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-Playground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C962EDA26C0AA3300100F60 /* Pods-Playground-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Playground-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		2C962EDB26C0AA3300100F60 /* Pods-Playground-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-Playground-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C962EDC26C0AA3300100F60 /* Pods-Playground-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-Playground-Info.plist"; sourceTree = "<group>"; };
+		2C962EDD26C0AA3300100F60 /* Pods-Playground-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Playground-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		2C962EDE26C0AA3300100F60 /* Pods-Playground-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-Playground-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
 		2C98C1D325EE280700E974EF /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C98C1D625EE280700E974EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C98C1D825EE280700E974EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,7 +215,6 @@
 		2CF2669625F60F0600AEE815 /* mario-detail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mario-detail.jpg"; sourceTree = "<group>"; };
 		2CF2669725F60F0600AEE815 /* mario-detail3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mario-detail3.png"; sourceTree = "<group>"; };
 		2CF2669F25F651CF00AEE815 /* mario-mush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mario-mush.png"; sourceTree = "<group>"; };
-		2D736567B6E0963EEE2E450D /* Pods_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC9C50F77133AC1E7E218F8 /* Pods-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground.debug.xcconfig"; path = "Target Support Files/Pods-Playground/Pods-Playground.debug.xcconfig"; sourceTree = "<group>"; };
 		8785C96ECAC33FB50F5497D4 /* Pods-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Playground.release.xcconfig"; path = "Target Support Files/Pods-Playground/Pods-Playground.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,9 +224,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C59785D26C4A686002CB021 /* libc++.tbd in Frameworks */,
 				2C2A1A1F26BBA63A005356DB /* CoreLocation.framework in Frameworks */,
+				2C59785F26C4A68C002CB021 /* libsqlite3.tbd in Frameworks */,
+				2C962EEA26C0ADEE00100F60 /* DaumMap.framework in Frameworks */,
+				2C59785E26C4A688002CB021 /* libxml2.tbd in Frameworks */,
 				2C2A1A2126BBA642005356DB /* QuartzCore.framework in Frameworks */,
-				E2AE5A293936B52762608314 /* Pods_Playground.framework in Frameworks */,
 				2C2A1A1D26BBA630005356DB /* SystemConfiguration.framework in Frameworks */,
 				2C2A1A1B26BBA626005356DB /* OpenGLES.framework in Frameworks */,
 			);
@@ -344,6 +373,26 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		2C962ED126C0AA3300100F60 /* Pods-Playground */ = {
+			isa = PBXGroup;
+			children = (
+				2C962ED226C0AA3300100F60 /* Pods-Playground.debug.xcconfig */,
+				2C962ED326C0AA3300100F60 /* Pods-Playground.release.xcconfig */,
+				2C962ED426C0AA3300100F60 /* Pods-Playground.modulemap */,
+				2C962ED526C0AA3300100F60 /* Pods-Playground-frameworks.sh */,
+				2C962ED626C0AA3300100F60 /* Pods-Playground-frameworks-Release-input-files.xcfilelist */,
+				2C962ED726C0AA3300100F60 /* Pods-Playground-dummy.m */,
+				2C962ED826C0AA3300100F60 /* Pods-Playground-umbrella.h */,
+				2C962ED926C0AA3300100F60 /* Pods-Playground-acknowledgements.markdown */,
+				2C962EDA26C0AA3300100F60 /* Pods-Playground-frameworks-Release-output-files.xcfilelist */,
+				2C962EDB26C0AA3300100F60 /* Pods-Playground-acknowledgements.plist */,
+				2C962EDC26C0AA3300100F60 /* Pods-Playground-Info.plist */,
+				2C962EDD26C0AA3300100F60 /* Pods-Playground-frameworks-Debug-output-files.xcfilelist */,
+				2C962EDE26C0AA3300100F60 /* Pods-Playground-frameworks-Debug-input-files.xcfilelist */,
+			);
+			path = "Pods-Playground";
+			sourceTree = "<group>";
+		};
 		2C98C1CA25EE280700E974EF = {
 			isa = PBXGroup;
 			children = (
@@ -430,7 +479,7 @@
 				2C2A1A1E26BBA63A005356DB /* CoreLocation.framework */,
 				2C2A1A1C26BBA630005356DB /* SystemConfiguration.framework */,
 				2C2A1A1A26BBA626005356DB /* OpenGLES.framework */,
-				2D736567B6E0963EEE2E450D /* Pods_Playground.framework */,
+				2C962ED126C0AA3300100F60 /* Pods-Playground */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -498,6 +547,7 @@
 				2CD82C4D25FA439900F66B3C /* link-detail.png in Resources */,
 				2C1DC2C325EE6979004A1208 /* 24219-controller.json in Resources */,
 				2C2A19E126BBA5A0005356DB /* map_pin_red@3x.png in Resources */,
+				2C962EDF26C0AA3300100F60 /* Pods-Playground.debug.xcconfig in Resources */,
 				2C0F6C5225FB9268008AD618 /* pokemon-detail.jpg in Resources */,
 				2C98C1E325EE280800E974EF /* LaunchScreen.storyboard in Resources */,
 				2C4C9D762614A8D5002039D8 /* nintendo-console1.jpg in Resources */,
@@ -513,6 +563,7 @@
 				2CD82C4925FA438800F66B3C /* zelda-detail2.png in Resources */,
 				2C2A19E226BBA5A0005356DB /* daum_copyright.png in Resources */,
 				2C2A19EB26BBA5A0005356DB /* map_present_direction.png in Resources */,
+				2C962EE026C0AA3300100F60 /* Pods-Playground.release.xcconfig in Resources */,
 				2CD82C3E25FA400300F66B3C /* mario-opening.mp3 in Resources */,
 				2C2A19ED26BBA5A0005356DB /* map_present.png in Resources */,
 				2C2A19D826BBA5A0005356DB /* map_pin_custom.png in Resources */,
@@ -528,20 +579,25 @@
 				2C0F6C5025FB9268008AD618 /* pokemon-detail3.jpg in Resources */,
 				2CD82C4A25FA438800F66B3C /* zelda-detail3.jpg in Resources */,
 				2C4C9D672614A04F002039D8 /* ConsoleImageView.xib in Resources */,
+				2C962EE926C0AA3300100F60 /* Pods-Playground-frameworks-Debug-input-files.xcfilelist in Resources */,
+				2C962EE426C0AA3300100F60 /* Pods-Playground-acknowledgements.markdown in Resources */,
 				2C2A19DD26BBA5A0005356DB /* map_pinup@3x.png in Resources */,
 				2C2A19E326BBA5A0005356DB /* map_pin@3x.png in Resources */,
 				2C4C9D752614A8D5002039D8 /* nintendo-console4.jpg in Resources */,
 				2CF2669A25F60F0600AEE815 /* mario-detail3.png in Resources */,
+				2C962EE826C0AA3300100F60 /* Pods-Playground-frameworks-Debug-output-files.xcfilelist in Resources */,
 				2C0F6C5525FB932D008AD618 /* pokeball-main.png in Resources */,
 				2C2A19E626BBA5A0005356DB /* info_box.png in Resources */,
 				2C2A19EA26BBA5A0005356DB /* noimage256.png in Resources */,
 				2C0F6C5825FB93D5008AD618 /* pokemon-opening.mp3 in Resources */,
 				2C2A19DF26BBA5A0005356DB /* copyright.png in Resources */,
+				2C962EE726C0AA3300100F60 /* Pods-Playground-Info.plist in Resources */,
 				2C2E83D925F36FF3005D0E3A /* zelda-main.png in Resources */,
 				2C98C1E025EE280800E974EF /* Assets.xcassets in Resources */,
 				2CD82C4825FA438800F66B3C /* zelda-detail.jpg in Resources */,
 				2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */,
 				2C2A19E726BBA5A0005356DB /* point_sprite.png in Resources */,
+				2C962EE226C0AA3300100F60 /* Pods-Playground-frameworks-Release-input-files.xcfilelist in Resources */,
 				2CF266A025F651CF00AEE815 /* mario-mush.png in Resources */,
 				2C2A19DE26BBA5A0005356DB /* map_pin_shadow@3x.png in Resources */,
 				2C4C9D772614A8D5002039D8 /* nintendo-console6.jpg in Resources */,
@@ -549,9 +605,12 @@
 				2C2A19E526BBA5A0005356DB /* map_pin_red.png in Resources */,
 				2C0F6C5125FB9268008AD618 /* pokemon-detail2.jpg in Resources */,
 				2C4C9D732614A8D5002039D8 /* nintendo-console5.jpg in Resources */,
+				2C962EE526C0AA3300100F60 /* Pods-Playground-frameworks-Release-output-files.xcfilelist in Resources */,
 				2C2A19EC26BBA5A0005356DB /* map_pin.png in Resources */,
 				2CD82C5025FA45AE00F66B3C /* zelda-opening.mp3 in Resources */,
 				2C4C9D782614A8D5002039D8 /* nintendo-console2.jpg in Resources */,
+				2C962EE126C0AA3300100F60 /* Pods-Playground-frameworks.sh in Resources */,
+				2C962EE626C0AA3300100F60 /* Pods-Playground-acknowledgements.plist in Resources */,
 				2C0F6C5B25FB9AD7008AD618 /* nds-startup.mp3 in Resources */,
 				2CF2669925F60F0600AEE815 /* mario-detail.jpg in Resources */,
 				2C2A19DA26BBA5A0005356DB /* map_pinup.png in Resources */,
@@ -611,6 +670,7 @@
 				2CD82C3B25FA3EAE00F66B3C /* Sound.swift in Sources */,
 				2C4C9D6A2614A06E002039D8 /* ConsoleImageView.swift in Sources */,
 				2C2E83DD25F3A77F005D0E3A /* MarioDetailViewController.swift in Sources */,
+				2C962EE326C0AA3300100F60 /* Pods-Playground-dummy.m in Sources */,
 				2C1E562725F1064B00241567 /* PlaystationViewController.swift in Sources */,
 				2C028E482613527800E35CB9 /* NConsoleViewController.swift in Sources */,
 				2C48715825FF949000C95842 /* NintendoDetailViewController.swift in Sources */,
@@ -781,6 +841,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = Playground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -808,6 +869,7 @@
 					"$(PROJECT_DIR)/**",
 				);
 				INFOPLIST_FILE = Playground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

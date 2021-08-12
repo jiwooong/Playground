@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 
-class NintendoDetailViewController: UIViewController {
+class NintendoDetailViewController: UIViewController, MTMapViewDelegate {
     
     // MARK: - Var
     
@@ -24,7 +24,8 @@ class NintendoDetailViewController: UIViewController {
         super.viewDidLoad()
         
         setVar()
-        setMapView()
+//        setMapView()
+        setMTMapView()
     }
     
     // MARK: - Set
@@ -50,5 +51,12 @@ class NintendoDetailViewController: UIViewController {
         mapView.setCamera(MKMapCamera(lookingAtCenter: location, fromDistance: CLLocationDistance(1000), pitch: 0, heading: CLLocationDirection(1)),
                           animated: true)
         mapView.isZoomEnabled = true
+    }
+    
+    private func setMTMapView() {
+        let kakaoMapView = MTMapView(frame: CGRect(origin: self.mapView.frame.origin, size: self.mapView.frame.size))
+        kakaoMapView.delegate = self
+        kakaoMapView.baseMapType = .hybrid
+        self.mapView.addSubview(kakaoMapView)
     }
 }
