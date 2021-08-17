@@ -32,9 +32,6 @@ class NConsoleViewController: UIViewController {
         consolesView.view.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
         consolesView.view.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
     }
-//    private func setVar() {
-//        lblTitle.text = "Here are Nintendo's Consoles"
-//    }
     
 //    private func setStackView() {
 //        for _ in 0...10 {
