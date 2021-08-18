@@ -15,12 +15,13 @@ struct ConsolesView: View {
             List {
                 modelData.consoleImages[0]
                     .resizable()
-                    .scaledToFill()
+                    .scaledToFit()
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
+                    .padding()
             }
-            .navigationTitle("Featured")
+            .navigationTitle("Mario")
         }
     }
 }

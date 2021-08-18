@@ -20,6 +20,10 @@ public class NintendoViewModel {
         return nintendo.mainTitleImages ?? [UIImage]()
     }
     
+    public var consoleTitles: [String] {
+        return nintendo.consoleTitles ?? [String]()
+    }
+    
     public var consoleImages: [Image] {
         return nintendo.consoleImages ?? [Image]()
     }
