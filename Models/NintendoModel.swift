@@ -10,30 +10,21 @@ import CoreLocation
 import SwiftUI
 
 public class NintendoModel {
-    static let shared = NintendoModel(title: nil,
-                                      titleImage: nil,
-                                      consoleImages: nil,
-                                      titleDescription: nil,
-                                      homepageURL: nil,
-                                      location: nil)
-    
-    public let title: String?
-    public let titleImage: UIImage?
+    public let mainTitleImages: [UIImage]?
     public let consoleImages: [Image]?
-    public let titleDescription: String?
     public let homepageURL: String?
     public let location: CLLocationCoordinate2D?
     
-    public init(title: String?,
-                titleImage: UIImage?,
-                consoleImages: [Image]?,
-                titleDescription: String?,
-                homepageURL: String?,
-                location: CLLocationCoordinate2D?) {
-        self.title = title
-        self.titleImage = titleImage
+    public init(mainTitleImages: [UIImage]? = [UIImage(named: "mario-main")!,
+                                               UIImage(named: "zelda-main")!,
+                                               UIImage(named: "pokemon-main")!,
+                                               UIImage(named: "switch-main")!,
+                                               UIImage(named: "nes-main")!],
+                consoleImages: [Image]? = [Image](),
+                homepageURL: String? = "https://www.nintendo.co.kr",
+                location: CLLocationCoordinate2D? = CLLocationCoordinate2D(latitude: 37.502009, longitude: 127.037296)) {
+        self.mainTitleImages = mainTitleImages
         self.consoleImages = consoleImages
-        self.titleDescription = titleDescription
         self.homepageURL = homepageURL
         self.location = location
     }

@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct ConsolesView: View {
+    var modelData: NintendoViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                modelData.consoleImages[0]
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
+            }
+            .navigationTitle("Featured")
+        }
     }
 }
 
-struct ConsolesView_Previews: PreviewProvider {
-    static var previews: some View {
-        ConsolesView()
-    }
-}
+//struct ConsolesView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ConsolesView(modelData: NintendoViewModel(nintendo: NintendoModel()))
+//    }
+//}

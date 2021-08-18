@@ -7,24 +7,21 @@
 
 import Foundation
 import CoreLocation
+import SwiftUI
 
 public class NintendoViewModel {
     private let nintendo: NintendoModel
     
-    public init(nintendo: NintendoModel) {
-        self.nintendo = nintendo
+    public init() {
+        self.nintendo = NintendoModel()
     }
     
-    public var title: String {
-        return nintendo.title ?? ""
+    public var mainTitleImages: [UIImage] {
+        return nintendo.mainTitleImages ?? [UIImage]()
     }
     
-    public var titleImage: UIImage {
-        return nintendo.titleImage ?? UIImage()
-    }
-    
-    public var titleDescription: String {
-        return nintendo.titleDescription ?? ""
+    public var consoleImages: [Image] {
+        return nintendo.consoleImages ?? [Image]()
     }
     
     public var homepageURL: URL {

@@ -7,12 +7,13 @@
 
 import UIKit
 import SwiftUI
+import CoreLocation
 
 class NConsoleViewController: UIViewController {
     
     // MARK: - Var
     
-    let consolesView = UIHostingController(rootView: ConsolesView())
+    let consolesView = UIHostingController(rootView: ConsolesView(modelData: NintendoViewModel()))
     
     // MARK: - Life Cycle
     
