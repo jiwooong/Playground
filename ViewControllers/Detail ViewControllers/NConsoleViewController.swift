@@ -13,7 +13,7 @@ class NConsoleViewController: UIViewController {
     
     // MARK: - Var
     
-    let consolesView = UIHostingController(rootView: ConsolesView(modelData: NintendoViewModel()))
+    let consolesView = UIHostingController(rootView: ConsolesView())
     
     // MARK: - Life Cycle
     

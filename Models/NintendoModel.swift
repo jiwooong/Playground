@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 import SwiftUI
 
-public class NintendoModel {
+public class NintendoModel: ObservableObject {
     public let mainTitleImages: [UIImage]?
     public let consoleTitles: [String]?
     public let consoleImages: [Image]?

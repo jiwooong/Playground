@@ -8,18 +8,10 @@
 import SwiftUI
 
 struct ConsolesView: View {
-    var modelData: NintendoViewModel
-    
     var body: some View {
         NavigationView {
             List {
-                modelData.consoleImages[0]
-                    .resizable()
-                    .scaledToFit()
-                    .frame(height: 200)
-                    .clipped()
-                    .listRowInsets(EdgeInsets())
-                    .padding()
+                ConsoleRow()
             }
             .navigationTitle("Mario")
         }

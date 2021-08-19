@@ -21,7 +21,6 @@ struct ConsoleRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(viewModel.consoleTitles.indices) { index in
-//                        Text("\(viewModel.consoleTitles[index])")
                         ConsoleItem(viewModel: viewModel)
                     }
                 }
