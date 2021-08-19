@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -51,12 +50,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yp-02-WfG">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1117"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="끝!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fn1-DB-Vya">
-                                                <rect key="frame" x="16" y="1064" width="382" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qwf-aM-165">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                                                 <subviews>
@@ -151,6 +144,12 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Np3-qG-zsP">
+                                                <rect key="frame" x="129.5" y="705.5" width="155" height="30"/>
+                                                <state key="normal" title="한국 닌텐도 공식 홈페이지">
+                                                    <color key="titleColor" systemColor="systemTealColor"/>
+                                                </state>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -185,19 +184,18 @@
                                             <constraint firstItem="qwf-aM-165" firstAttribute="leading" secondItem="5yp-02-WfG" secondAttribute="leading" id="diA-va-hwg"/>
                                             <constraint firstItem="B5f-de-hec" firstAttribute="height" secondItem="SEe-VB-PIV" secondAttribute="height" id="fpE-2C-hQF"/>
                                             <constraint firstItem="lGP-Ov-xlI" firstAttribute="centerY" secondItem="Bcb-k1-mOr" secondAttribute="centerY" id="gOb-Ou-akS"/>
-                                            <constraint firstAttribute="trailing" secondItem="Fn1-DB-Vya" secondAttribute="trailing" constant="16" id="gUS-YY-LfG"/>
+                                            <constraint firstItem="Np3-qG-zsP" firstAttribute="centerX" secondItem="7MT-56-9CR" secondAttribute="centerX" id="j98-QT-4xF"/>
                                             <constraint firstItem="SEe-VB-PIV" firstAttribute="top" secondItem="1ER-tg-Np7" secondAttribute="bottom" constant="32" id="lu1-6J-niV"/>
+                                            <constraint firstItem="Np3-qG-zsP" firstAttribute="top" secondItem="7MT-56-9CR" secondAttribute="bottom" constant="24" id="mN9-pm-l2k"/>
                                             <constraint firstItem="Hlh-sS-OjH" firstAttribute="leading" secondItem="HyO-ew-CaY" secondAttribute="leading" id="nCD-Rk-Iah"/>
                                             <constraint firstItem="HyO-ew-CaY" firstAttribute="leading" secondItem="EF3-Eq-pN9" secondAttribute="trailing" constant="12" id="rPO-Bk-uiR"/>
                                             <constraint firstAttribute="trailing" secondItem="1ER-tg-Np7" secondAttribute="trailing" constant="16" id="szb-cF-zdT"/>
                                             <constraint firstAttribute="trailing" secondItem="qwf-aM-165" secondAttribute="trailing" id="t1t-9b-jlO"/>
                                             <constraint firstItem="1ER-tg-Np7" firstAttribute="top" secondItem="qwf-aM-165" secondAttribute="bottom" constant="16" id="tIS-JL-O9q"/>
                                             <constraint firstItem="lGP-Ov-xlI" firstAttribute="leading" secondItem="Hlh-sS-OjH" secondAttribute="leading" id="tgs-yJ-RQZ"/>
-                                            <constraint firstItem="Fn1-DB-Vya" firstAttribute="leading" secondItem="5yp-02-WfG" secondAttribute="leading" constant="16" id="tyf-8g-JOt"/>
                                             <constraint firstAttribute="trailing" secondItem="YnM-RE-Ogs" secondAttribute="trailing" constant="16" id="vNb-QH-wOe"/>
                                             <constraint firstItem="EF3-Eq-pN9" firstAttribute="top" secondItem="OkG-i6-InD" secondAttribute="top" id="voU-v8-qi7"/>
                                             <constraint firstItem="EF3-Eq-pN9" firstAttribute="leading" secondItem="OkG-i6-InD" secondAttribute="trailing" constant="32" id="wko-sD-Q3W"/>
-                                            <constraint firstAttribute="bottom" secondItem="Fn1-DB-Vya" secondAttribute="bottom" constant="32" id="xpR-ul-Rnq"/>
                                             <constraint firstAttribute="trailing" secondItem="HyO-ew-CaY" secondAttribute="trailing" constant="16" id="y97-h3-lWb"/>
                                             <constraint firstItem="YnM-RE-Ogs" firstAttribute="bottom" secondItem="B5f-de-hec" secondAttribute="bottom" id="yPD-Cf-0UF"/>
                                             <constraint firstItem="SEe-VB-PIV" firstAttribute="leading" secondItem="5yp-02-WfG" secondAttribute="leading" constant="16" id="zaA-hF-FNo"/>
@@ -228,6 +226,7 @@
                     <tabBarItem key="tabBarItem" title="Nintendo" image="nintendo" id="uul-jx-Nqy"/>
                     <size key="freeformSize" width="414" height="1200"/>
                     <connections>
+                        <outlet property="btnGoToHomePage" destination="Np3-qG-zsP" id="ee0-an-DHJ"/>
                         <outlet property="ivMario" destination="SEe-VB-PIV" id="o3v-y4-JnC"/>
                         <outlet property="ivNESOne" destination="EF3-Eq-pN9" id="vaj-7Q-RC0"/>
                         <outlet property="ivNESThree" destination="Bcb-k1-mOr" id="ehV-Co-i1F"/>
@@ -726,6 +725,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

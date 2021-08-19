@@ -27,6 +27,7 @@ class NintendoViewController: UIViewController {
     @IBOutlet weak var ivNESTwo: UIImageView!
     @IBOutlet weak var ivNESThree: UIImageView!
     @IBOutlet weak var lblHomePage: UILabel!
+    @IBOutlet var btnGoToHomePage: UIButton!
     
     let viewModel = NintendoViewModel()
     
@@ -73,6 +74,7 @@ class NintendoViewController: UIViewController {
         ivNintendoSwitch.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(popUpSwitchDetail(sender:))))
         lblNintendo.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(goToNintendoDetail(sender:))))
         lblNintendoConsoles.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(goToNConsoleView(sender:))))
+        btnGoToHomePage.addTarget(self, action: #selector(goToOfficialHomePage), for: .touchUpInside)
     }
     
     // MARK: - Functions
@@ -114,5 +116,10 @@ class NintendoViewController: UIViewController {
         let okButton = UIAlertAction(title: "확인", style: .default, handler: nil)
         alertController.addAction(okButton)
         self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @objc
+    func goToOfficialHomePage() {
+        UIApplication.shared.open(viewModel.homepageURL, options: [:], completionHandler: nil)
     }
 }
