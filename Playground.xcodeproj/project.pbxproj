@@ -71,6 +71,7 @@
 		2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */; };
 		2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B68832602253A000A8E56 /* nintendo-logo.png */; };
 		2C83F44326CCEC16008146F5 /* ConsoleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F44226CCEC16008146F5 /* ConsoleRow.swift */; };
+		2C83F44526CDDB8A008146F5 /* ConsoleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F44426CDDB8A008146F5 /* ConsoleItem.swift */; };
 		2C93A13426BD050400E9CD1A /* NintendoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13326BD050400E9CD1A /* NintendoModel.swift */; };
 		2C93A13726BD084600E9CD1A /* NintendoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */; };
 		2C962EDF26C0AA3300100F60 /* Pods-Playground.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2C962ED226C0AA3300100F60 /* Pods-Playground.debug.xcconfig */; };
@@ -181,6 +182,7 @@
 		2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewController.swift; sourceTree = "<group>"; };
 		2C7B68832602253A000A8E56 /* nintendo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nintendo-logo.png"; sourceTree = "<group>"; };
 		2C83F44226CCEC16008146F5 /* ConsoleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleRow.swift; sourceTree = "<group>"; };
+		2C83F44426CDDB8A008146F5 /* ConsoleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleItem.swift; sourceTree = "<group>"; };
 		2C93A13326BD050400E9CD1A /* NintendoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoModel.swift; sourceTree = "<group>"; };
 		2C93A13626BD084600E9CD1A /* NintendoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewModel.swift; sourceTree = "<group>"; };
 		2C962ED226C0AA3300100F60 /* Pods-Playground.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Playground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 			children = (
 				2C59786026C50D21002CB021 /* ConsolesView.swift */,
 				2C83F44226CCEC16008146F5 /* ConsoleRow.swift */,
+				2C83F44426CDDB8A008146F5 /* ConsoleItem.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -682,6 +685,7 @@
 			files = (
 				2CD82C4225FA421700F66B3C /* ZeldaDetailViewControllers.swift in Sources */,
 				2C83F44326CCEC16008146F5 /* ConsoleRow.swift in Sources */,
+				2C83F44526CDDB8A008146F5 /* ConsoleItem.swift in Sources */,
 				2CD82C3B25FA3EAE00F66B3C /* Sound.swift in Sources */,
 				2C4C9D6A2614A06E002039D8 /* ConsoleImageView.swift in Sources */,
 				2C2E83DD25F3A77F005D0E3A /* MarioDetailViewController.swift in Sources */,
