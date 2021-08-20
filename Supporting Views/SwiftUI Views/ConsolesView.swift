@@ -8,18 +8,49 @@
 import SwiftUI
 
 struct ConsolesView: View {
+    let viewModel = NintendoViewModel()
+    
     var body: some View {
         NavigationView {
             List {
-                ConsoleRow()
+                VStack {
+                    Text(viewModel.consoleTitles[0])
+                        .font(.headline)
+                        .padding(.leading, 15)
+                        .padding(.top, 5)
+                    
+                    Image(uiImage: UIImage(named: "mario-detail.jpg")!)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 80)
+                        .padding()
+                }
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 0) {
+                        ForEach(viewModel.consoleTitles.indices) { index in
+                            ConsoleItem(viewModel: viewModel)
+                        }
+                    }
+                }
+                .frame(height: 185)
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(alignment: .top, spacing: 0) {
+                        ForEach(viewModel.consoleTitles.indices) { index in
+                            ConsoleItem(viewModel: viewModel)
+                        }
+                    }
+                }
+                .frame(height: 185)
             }
             .navigationTitle("Mario")
         }
     }
 }
 
-//struct ConsolesView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ConsolesView(modelData: NintendoViewModel(nintendo: NintendoModel()))
-//    }
-//}
+struct ConsolesView_Previews: PreviewProvider {
+    static var previews: some View {
+        ConsolesView()
+    }
+}

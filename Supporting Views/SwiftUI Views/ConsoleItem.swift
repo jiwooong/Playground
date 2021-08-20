@@ -14,7 +14,7 @@ struct ConsoleItem: View {
         VStack(alignment: .leading) {
             viewModel.consoleImages[0]
                 .resizable()
-                .frame(width: 155, height: 155)
+                .scaledToFit()
                 .cornerRadius(5)
             Text(viewModel.consoleTitles[1])
                 .font(.caption)
