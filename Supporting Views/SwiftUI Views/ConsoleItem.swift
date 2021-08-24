@@ -13,10 +13,12 @@ struct ConsoleItem: View {
     var body: some View {
         VStack(alignment: .leading) {
             viewModel.consoleImages[0]
+                .renderingMode(.original)
                 .resizable()
-                .scaledToFit()
+                .frame(width: 155, height: 155)
                 .cornerRadius(5)
             Text(viewModel.consoleTitles[1])
+                .foregroundColor(.primary)
                 .font(.caption)
         }
         .padding(.leading, 15)
