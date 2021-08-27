@@ -13,12 +13,27 @@ struct ConsolesView: View {
     var body: some View {
         NavigationView {
             List {
-                Image(uiImage: UIImage(named: "mario-detail.jpg")!)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: UIScreen.screenWidth)
-                    .clipped()
-                    .listRowInsets(EdgeInsets())
+                GeometryReader { geometry in
+                    ImageCarouselView(numberOfImages: 3) {
+                        Image(uiImage: UIImage(named: "mario-detail.jpg")!)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .clipped()
+                        Image(uiImage: UIImage(named: "mario-detail2.jpg")!)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .clipped()
+                        Image(uiImage: UIImage(named: "mario-detail3.png")!)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: geometry.size.width, height: geometry.size.height)
+                            .clipped()
+                    }
+                }
+                .frame(height: 300, alignment: .center)
+                .listRowInsets(EdgeInsets())
                 
                 VStack(alignment: .leading) {
                     Text(viewModel.consoleTitles[0])

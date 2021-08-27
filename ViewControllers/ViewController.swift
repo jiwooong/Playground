@@ -27,9 +27,9 @@ class ViewController: UIViewController {
         Sound.playAudio(soundFile: "nds-startup.mp3")
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainTapView")
-            vc?.modalPresentationStyle = .fullScreen
-            self.present(vc!, animated: true, completion: nil)
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainTapView") else { return }
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: true, completion: nil)
         }
     }
     

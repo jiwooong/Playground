@@ -69,6 +69,7 @@
 		2C59785F26C4A68C002CB021 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2A1A2426BBA663005356DB /* libsqlite3.tbd */; };
 		2C59786126C50D21002CB021 /* ConsolesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59786026C50D21002CB021 /* ConsolesView.swift */; };
 		2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */; };
+		2C735BE126D8741F0028CE6F /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C735BE026D8741F0028CE6F /* ImageCarouselView.swift */; };
 		2C7B68842602253A000A8E56 /* nintendo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B68832602253A000A8E56 /* nintendo-logo.png */; };
 		2C83F44326CCEC16008146F5 /* ConsoleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F44226CCEC16008146F5 /* ConsoleRow.swift */; };
 		2C83F44526CDDB8A008146F5 /* ConsoleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C83F44426CDDB8A008146F5 /* ConsoleItem.swift */; };
@@ -180,6 +181,7 @@
 		2C4C9D722614A8D5002039D8 /* nintendo-console3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nintendo-console3.jpg"; sourceTree = "<group>"; };
 		2C59786026C50D21002CB021 /* ConsolesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsolesView.swift; sourceTree = "<group>"; };
 		2C619DC125EF6A84004B8C99 /* NintendoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoViewController.swift; sourceTree = "<group>"; };
+		2C735BE026D8741F0028CE6F /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 		2C7B68832602253A000A8E56 /* nintendo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nintendo-logo.png"; sourceTree = "<group>"; };
 		2C83F44226CCEC16008146F5 /* ConsoleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleRow.swift; sourceTree = "<group>"; };
 		2C83F44426CDDB8A008146F5 /* ConsoleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleItem.swift; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 				2C59786026C50D21002CB021 /* ConsolesView.swift */,
 				2C83F44226CCEC16008146F5 /* ConsoleRow.swift */,
 				2C83F44426CDDB8A008146F5 /* ConsoleItem.swift */,
+				2C735BE026D8741F0028CE6F /* ImageCarouselView.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -695,6 +698,7 @@
 				2C48715825FF949000C95842 /* NintendoDetailViewController.swift in Sources */,
 				2C98C1DB25EE280700E974EF /* ViewController.swift in Sources */,
 				2C98C1D725EE280700E974EF /* AppDelegate.swift in Sources */,
+				2C735BE126D8741F0028CE6F /* ImageCarouselView.swift in Sources */,
 				2C59786126C50D21002CB021 /* ConsolesView.swift in Sources */,
 				2CE8B06B26A8FCF000F1BA69 /* HTTPManager.swift in Sources */,
 				2C619DC225EF6A84004B8C99 /* NintendoViewController.swift in Sources */,
