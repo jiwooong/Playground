@@ -9,6 +9,17 @@ import SwiftUI
 
 struct ConsolesView: View {
     let viewModel = NintendoViewModel()
+    var gridItems = [
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail.jpg"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail.jpg"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail.jpg"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail2.jpg"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail2.jpg"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail2.jpg"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail3.png"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail3.png"),
+        GridItem(height: CGFloat.random(in: 100 ... 400), imgString: "mario-detail3.png")
+    ]
     
     var body: some View {
         NavigationView {
@@ -34,6 +45,10 @@ struct ConsolesView: View {
                 }
                 .frame(height: 300, alignment: .center)
                 .listRowInsets(EdgeInsets())
+                
+//                ScrollView {
+//                    PinterestGrid(gridItems: gridItems, numOfColumns: 2, spacing: 20, horizontalPadding: 20)
+//                }
                 
                 VStack(alignment: .leading) {
                     Text(viewModel.consoleTitles[0])
