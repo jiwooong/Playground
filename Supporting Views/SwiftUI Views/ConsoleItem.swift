@@ -17,9 +17,9 @@ struct ConsoleItem: View {
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
-            Text(viewModel.consoleTitles[1])
-                .foregroundColor(.primary)
-                .font(.caption)
+//            Text(viewModel.consoleTitles[1])
+//                .foregroundColor(.primary)
+//                .font(.caption)
         }
         .padding(.leading, 15)
     }

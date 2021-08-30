@@ -21,7 +21,7 @@ public class NintendoModel: ObservableObject {
                                                UIImage(named: "pokemon-main")!,
                                                UIImage(named: "switch-main")!,
                                                UIImage(named: "nes-main")!],
-                consoleTitles: [String]? = ["famicom", "super famicom", "nintendo ds", "nintendo 3ds", "nintendo switch"],
+                consoleTitles: [String]? = ["1980s", "1990s", "2000s", "2010s", "2020s"],
                 consoleImages: [Image]? = [Image(uiImage: UIImage(named: "mario-main")!)],
                 homepageURL: String? = "https://www.nintendo.co.kr",
                 location: CLLocationCoordinate2D? = CLLocationCoordinate2D(latitude: 37.502009, longitude: 127.037296)) {
