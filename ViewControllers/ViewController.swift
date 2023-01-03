@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("viewDidLoad()...")
         let animationView = AnimationView(name: "24219-controller")
         animationView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
         animationView.center = self.view.center
